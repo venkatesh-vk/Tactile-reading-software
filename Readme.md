@@ -1,6 +1,34 @@
 # Tactile Reading Software
 
-This project is an image conversion system that uses OpenCV for image processing, NumPy for numerical operations, and Tkinter for the graphical user interface (GUI). The system allows users to convert images through multiple stages, with the final output stored in the "FOPImages" folder.
+In this project, the primary goal is to convert a standard image into a tactile image, which can be beneficial for various applications, particularly for individuals with visual impairments or for tactile-based object recognition systems. This conversion is achieved through a multi-stage process, with the saliency feature playing a crucial role.
+
+### Saliency Feature in Image Processing
+
+The **saliency feature** in image processing refers to a technique used to identify and highlight the most important or relevant areas within an image. It aims to capture regions that are likely to attract human attention or are of particular significance within the image. This feature is particularly useful for applications such as object detection and image segmentation.
+
+### Saliency-Based Image Conversion
+
+In the context of this project, the saliency feature is employed to transform standard images into tactile representations with an emphasis on the most significant elements. Here's how the process works:
+
+1. **Image Loading:** The project starts by loading the input image using OpenCV.
+
+2. **Saliency Computation:** The saliency feature is applied to the input image. This involves analyzing the image to identify areas that are salient or noteworthy. These areas are typically regions with distinct objects or features that draw human attention.
+
+3. **Tactile Emphasis:** The identified salient areas are emphasized in the tactile image. This can be achieved through various techniques, such as adjusting contrast, brightness, or applying filters to enhance the tactile perception of these regions.
+
+4. **Output Generation:** The final tactile image, with its salient features emphasized, is generated as the output. This image is optimized for tactile exploration, making it suitable for tactile-based object recognition or navigation.
+
+### Applications of Tactile Images
+
+The conversion of standard images into tactile representations has several practical applications:
+
+- **Accessibility:** Tactile images are invaluable for individuals with visual impairments, providing a means for them to explore and understand visual content through touch.
+
+- **Tactile Object Recognition:** Tactile images can be used in systems that recognize objects through touch, enabling robots or assistive devices to identify and interact with their surroundings.
+
+- **Education:** Tactile images can be employed in educational materials to make visual content accessible to students with visual impairments.
+
+- **Art and Design:** Tactile images can be utilized in art and design projects to create unique tactile artwork or design elements.
 
 ## Additional Information:
 
